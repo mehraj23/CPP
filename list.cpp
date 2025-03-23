@@ -40,6 +40,9 @@ int main()
     //printing size of list
     cout<<l.size()<<endl;
 
+    //printing capacity of list
+    cout<<l.max_size()<<endl;
+
     return 0;
 
 }
