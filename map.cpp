@@ -21,4 +21,15 @@ int main()
         cout<<x.first<<" "<<x.second<<endl;
     }
 
+    //inseting elements in map
+    m.insert(pair<int,string>(6,"Saleha"));
+
+    //printing map using iterator
+    map<int,string>::iterator it;
+
+    for(it=m.begin();it!=m.end();it++)
+    {
+        cout<<it->first<<" " <<it->second<<endl;
+    }
+
 }
