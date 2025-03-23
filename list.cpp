@@ -28,4 +28,18 @@ int main()
         cout<<*it<<" ";
     }
 
+    //popping element from list
+    l.pop_back();
+
+    list<int>::iterator it1;
+    for(it1=l.begin();it1!=l.end();it1++)
+    {
+        cout<<*it1<<" ";
+    }
+
+    //printing size of list
+    cout<<l.size()<<endl;
+
+    return 0;
+
 }
